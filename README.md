@@ -6,6 +6,7 @@ Queen is an object-oriented JVM language very similar to Java. In fact, you can 
 
 Similarly to Java, the entry point of a Queen application is the *main* method. However, this method is not static and the class implementing this method actually implements the ``org.queenlang.api.Main`` interface (there can be only one implementation of ``Main`` per application).
 
+``EntryPoint.queen``:
 ```java
 package org.queenlang.helloworld;
 import org.queenlang.api.Main;
