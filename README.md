@@ -8,7 +8,7 @@ Similarly to Java, the entry point of a Queen application is the *main* method. 
 
 ```java
 package org.queenlang.helloworld;
-import org.queenlang.qdk.Main;
+import org.queenlang.api.Main;
 
 /**
  * Entry point of our Queen application.
