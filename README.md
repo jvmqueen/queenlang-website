@@ -1,6 +1,6 @@
 ## The Queen programming language (Queenlang)
 
-Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a **very strict** protocol. Queen takes Java and tries to remove everything that goes against the pinciples of Object-Oriented Programming.
+Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a strict protocol. Queen takes Java and tries to remove everything that goes against the pinciples of Object-Oriented Programming.
 
 ### Hello World
 
