@@ -1,6 +1,6 @@
 ---
 title: Queen's Protocol
-has_children: true
+#has_children: true
 nav_order: 2
 ---
 
@@ -12,6 +12,5 @@ In the effort of implementing real object-oriented applications, the Queen progr
 2. A class is either abstract or final.
 3. No static stuff. Queen doesn't even have the **static** keyword.
 4. No null! Queen does not have the concept of null. Instead, in Queen, we say that an object is **missing**. 
-5. All variables (class attributes or method variables) are final -- they can be attributed only once.
+5. All variables (class attributes, method variables or attributes) are final -- they can be attributed only once.
 6. Naming restrictions. For instance, variables must have at least 3 characters in their name.
-... more to come.
