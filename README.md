@@ -19,8 +19,8 @@ import org.queenlang.api.Main;
 public final EntryPoint implements Main {
 
     @Override
-    public void main(String[] args) {
-        println("Hello world, I am your queen!");
+    public final void main(String[] args) {
+        println("Hello world!");
     }
 }
 ```
