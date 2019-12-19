@@ -11,7 +11,7 @@ In the effort of implementing real object-oriented applications, the Queen progr
 1. Any public method of a class should be declared in an interface.
 2. A class is either abstract or final.
 3. Attributes of a class cannot be public.
-4. No static stuff. Queen doesn't even have the **static** keyword.
+4. No static attributes or void methods.
 5. No null! Queen does not have the concept of null. Instead, in Queen, we say that an object is **missing** (there's more to this than just a name change). 
 6. All variables (class variables, method variables or attributes) are final -- they can be attributed only once.
 7. Naming restrictions. For instance, variables must have at least 3 characters in their name.
