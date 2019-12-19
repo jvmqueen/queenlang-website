@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## The Queen programming language (Queenlang)
 
-You can use the [editor on GitHub](https://github.com/jvmqueen/queenlang-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Queen <strike>is</strike> will be an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a **very strict** protocol. Queen takes Java and tries to remove everything that goes against the pinciples of Object-Oriented Programming.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Hello World
 
-### Markdown
+Similarly to Java, the entry point of a Queen application is a *main* method. However, this method is not static and the class implementing this method actually implements the ``Main`` interface (there can be only one implementation of ``Main`` per application).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```java
+/**
+ * Entry point of our Queen application.
+ */
+public final EntryPoint implements Main {
+    public void main(String[] args) {
+        println("Hello world! I am your queen!");
+    }
+}
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jvmqueen/queenlang-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
