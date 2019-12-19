@@ -19,7 +19,7 @@ import org.queenlang.api.Main;
 public final EntryPoint implements Main {
 
     @Override
-    public final void main(String[] args) {
+    public void main(final String[] args) {
         println("Hello world!");
     }
 }
