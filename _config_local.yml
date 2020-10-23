@@ -1,0 +1,8 @@
+# Local Setting
+baseurl: ""
+url: ""
+
+theme: just-the-docs
+title: "Queenlang"
+color_scheme: "dark"
+footer_content: "Copyright &copy; 2019-2020 Queenlang Contributors. Designed with ❤️ in Vienna and Cluj-Napoca."
