@@ -4,7 +4,9 @@ Queen is an object-oriented JVM language very similar to Java. In fact, you can 
 
 ### Hello World
 
-Similarly to Java, the entry point of a Queen application is the *main* method. However, this method is not static and the class implementing this method actually implements the ``org.queenlang.api.Main`` interface (there can be only one implementation of ``Main`` per application). One key difference is that, in Queen, classes are named **implementations** and the keyword **implements** is replaced by **of**.
+Similarly to Java, the entry point of a Queen application is the *main* method. However, the class implementing this method must implement the ``org.queenlang.api.Main`` interface.
+
+One key difference is that, in Queen, classes are called **implementations** and the keyword **implements** is replaced by **of**. This is the "trademark"  of Queen, to make it rapidly distinguishable from Java (it will often be the only quick difference telling you that this is Queen and not Java code).
 
 ``EntryPoint.queen``:
 ```java
@@ -19,8 +21,7 @@ import org.queenlang.api.Main;
  */
 public final implementation EntryPoint of Main {
 
-    @Override
-    public void main(final String[] args) {
+    public static void main(final String[] args) {
         println("Hello world!");
     }
 }
