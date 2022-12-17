@@ -12,6 +12,8 @@ Similarly to Java, the entry point of a Queen application is the *main* method.
 
 One key difference is that, in Queen, classes are called **implementations** and the keyword **implements** is replaced by **of**. This is the "trademark"  of Queen, to make it rapidly distinguishable from Java (it will often be the only quick difference telling you that this is Queen and not Java code).
 
+Also note that the extension of any Queen file is ``.queen``.
+
 ``EntryPoint.queen``:
 ```java
 package org.queenlang.helloworld;
