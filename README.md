@@ -1,17 +1,20 @@
 ## The Queen programming language (Queenlang)
 
-Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a strict protocol. Queen takes Java and tries to remove everything that goes against the pinciples of Object-Oriented Programming.
+Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a strict [protocol](/protocol.html). Queen's syntax started from and remains quite similar to Java 8. However, there are three main architectural differences:
+
+- immutability by default;
+- classes are either abstract or final;
+- all public instance methods must be declared in an interface or super class;
 
 ### Hello World
 
-Similarly to Java, the entry point of a Queen application is the *main* method. However, the class implementing this method must implement the ``org.queenlang.api.Main`` interface.
+Similarly to Java, the entry point of a Queen application is the *main* method.
 
 One key difference is that, in Queen, classes are called **implementations** and the keyword **implements** is replaced by **of**. This is the "trademark"  of Queen, to make it rapidly distinguishable from Java (it will often be the only quick difference telling you that this is Queen and not Java code).
 
 ``EntryPoint.queen``:
 ```java
 package org.queenlang.helloworld;
-import org.queenlang.api.Main;
 
 /**
  * Entry point of our Queen application.
@@ -19,10 +22,10 @@ import org.queenlang.api.Main;
  * @version $Id$
  * @since 0.0.1
  */
-public final implementation EntryPoint of Main {
+public final implementation EntryPoint {
 
     public static void main(final String[] args) {
-        println("Hello world!");
+        System.out.println("Hello world!");
     }
 }
 ```
