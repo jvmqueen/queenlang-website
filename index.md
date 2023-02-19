@@ -8,7 +8,7 @@ nav_order: 1
 
 Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a strict [protocol](/protocol.html). Queen's syntax started from and remains quite similar to Java 8. However, there are three main architectural differences:
 
-- immutability by default;
+- immutability by default (instance fields and method parameters are final by default);
 - classes are either abstract or final;
 - all public instance methods must be declared in an interface or super class;
 
@@ -32,7 +32,7 @@ package org.queenlang.helloworld;
  */
 public final implementation EntryPoint {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         System.out.println("Hello world!");
     }
 }
