@@ -15,8 +15,7 @@ Here's the roadmap for Queen's initial release:
 
 <img src="https://queenlang.org/images/first_hello_world.png" alt="First Hello World">
 
-- 2023, Mai: the very first stable release for the CLI transpiler is expected.
-- 2023, June-July: the first stable release for the IntelliJ Idea IDE Plgin is expected.
-- 2023 We should start presenting Queen at programming conferences
-- 2024 Possibly start implementing our own QDK, to replace the JDK
-
+- 2023, May: the very first stable release for the CLI transpiler is expected;
+- 2023, June-July: the first stable release for the IntelliJ Idea IDE Plgin is expected;
+- 2023 We should start presenting Queen at programming conferences;
+- 2024 Possibly start implementing our own QDK, to replace the JDK;
