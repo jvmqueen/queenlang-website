@@ -41,3 +41,7 @@ public final implementation EntryPoint {
 ### Development of Queenlang
 
 The Queen programming language is developed and maintained on Github, under the [jvmqueen](https://github.com/jvmqueen) Organization. Feel free to contribute or open any Issues you might have. We will help you with any question or problem.
+
+### Roadmap
+
+Queen's roadmap is described [here](/roadmap.html).
