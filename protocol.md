@@ -13,5 +13,6 @@ In the effort of implementing real object-oriented applications, the Queen progr
 3. Immutable-first: all instance fields and method parameters are final by default.
 4. Fields of a class cannot be public (except static constants).
 5. No static void methods (with the exception of the main method).
-6. Null-safety.
-7. No Enums allowed. Enums are actually good in very few cases, yet they encourage shallow and meaningless abstractions.
+6. The keywords ``class`` and ``implements`` become ``implementation`` and ``of`` respectively.
+7. The keyword ``mutable`` is introduced (as antonym to ``final``).
+8. No Enums allowed. Enums are actually good in very few cases, yet they encourage shallow and meaningless abstractions.
