@@ -12,7 +12,7 @@ Queen is an object-oriented JVM language similar to Java. Queen's syntax started
 - classes are either abstract or final;
 - all public instance methods must be declared in an interface or super class;
 
-Read more in Queen's [protocol](/protocol.html)
+Read more in Queen's [protocol](/protocol.html).
 
 ### Hello World
 
