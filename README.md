@@ -1,10 +1,12 @@
 ## The Queen programming language (Queenlang)
 
-Queen is an object-oriented JVM language very similar to Java. In fact, you can think of it as Java with a strict [protocol](/protocol.html). Queen's syntax started from and remains quite similar to Java 8. However, there are three main architectural differences:
+Queen is an object-oriented JVM language very similar to Java. Queen's syntax started from and remains quite similar to Java 8. However, there are three main architectural differences:
 
 - immutability by default;
 - classes are either abstract or final;
 - all public instance methods must be declared in an interface or super class;
+
+Read more in Queen's [protocol](/protocol.html).
 
 ### Hello World
 
