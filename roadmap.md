@@ -8,7 +8,7 @@ nav_order: 3
 
 Here's the roadmap for Queen's initial release:
 
-- 2020: conception, naming, initial grammar. ANTLR4, AST and Language Engineering analysis;
+- 2019-2020: conception, naming, initial grammar. ANTLR4, AST and Language Engineering analysis;
 - 2021: first PoC ANTLR4 parser implemented and tested;
 - 2022: Registered the Queenlang trademark in Europe;
 - 2023, January: Grammar; Implemented the ANTLR4 parser, AST visitor and the Java parsing using JavaParser;
@@ -16,7 +16,7 @@ Here's the roadmap for Queen's initial release:
 
 <img src="https://queenlang.org/images/first_hello_world.png" title="The very first Hello World, 19.02.2023" alt="First Hello World">
 
-- 2023, May: the very first stable release for the CLI transpiler is expected;
-- 2023, June-July: the first stable release for the IntelliJ Idea IDE Plgin is expected;
+- 2023, May: the very first stable release of the CLI transpiler is expected;
+- 2023, June-July: the first stable release of the IntelliJ Idea IDE Plugin is expected;
 - 2023 We should start presenting Queen at programming conferences;
-- 2024 Possibly start implementing our own QDK, to replace the JDK;g
+- 2024 Possibly start implementing our own QDK, to replace the JDK;
