@@ -14,6 +14,10 @@ Queen is an object-oriented JVM language similar to Java. Queen's syntax started
 
 Read more in Queen's [protocol](/protocol.html).
 
+## Download
+
+The CLI Transpiler can be downloaded from our Github Packages page. More [here](https://github.com/jvmqueen/queen-of-java).
+
 ### Hello World
 
 Similarly to Java, the entry point of a Queen application is the *main* method.
@@ -39,6 +43,13 @@ public final implementation EntryPoint {
     }
 }
 ```
+Execute the file like this:
+
+```bash
+$ java -jar queenc.jar -f EntryPoint.queen && java ./org/queenlang/helloworld/EntryPoint.java
+$ Queen says Hello World!
+```
+The first command transpiles the Queen file into a Java file, while the second command simply executes it.
 
 ### Development of Queenlang
 
