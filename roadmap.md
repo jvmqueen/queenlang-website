@@ -21,5 +21,6 @@ Here's the roadmap for Queen's initial release:
 
 <img src="https://queenlang.org/images/hello-world-project.png" title="The second Hello World (project, not just a single file), 15.07.2026" alt="Second Hello World">
 
-- 2026: A few other releases are expected, with improvements Maven-support improvements.
-- 2028:  Possibly start implementing our own QDK, to replace the JDK;
+- 2026: A few other releases are expected, with improvements for Maven support.
+- 2028: Possibly start implementing our own QDK, to replace the JDK;
+gi
