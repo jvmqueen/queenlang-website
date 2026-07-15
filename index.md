@@ -43,17 +43,19 @@ public final implementation EntryPoint {
     }
 }
 ```
-Execute the file like this:
+Execute the ~~file~~ project like this:
 
 ```bash
-$ java -jar queenc.jar -f EntryPoint.queen && java ./org/queenlang/helloworld/EntryPoint.java
+$ java -jar queenc.jar --project . --output . && java ./org/queenlang/helloworld/EntryPoint.java
+$ ... logging from queenc ... 
 $ Queen says Hello World!
 ```
-The first command transpiles the Queen file into a Java file, while the second command simply executes it.
+
+The first command transpiles the Queen project (in this case, only the file EntryPoint.queen) from the current directory into the same directory, while the second command simply executes the created Java class which is created in a directory structure respecting the declared package (org.queenlang.helloworld).
 
 ### Development of Queenlang
 
-The Queen programming language is developed and maintained on Github, under the [jvmqueen](https://github.com/jvmqueen) Organization. Feel free to contribute or open any Issues you might have. We will help you with any question or problem.
+The Queen programming language is developed and maintained on Github, under the [jvmqueen](https://github.com/jvmqueen) Organization, by [Silvia Maxima et Co.](https://silviamaxima.eu). Feel free to contribute or open any Issues you might have. We will help you with any question or problem.
 
 ### Roadmap
 

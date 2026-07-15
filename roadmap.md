@@ -23,4 +23,3 @@ Here's the roadmap for Queen's initial release:
 
 - 2026: A few other releases are expected, with improvements for Maven support.
 - 2028: Possibly start implementing our own QDK, to replace the JDK;
-gi
