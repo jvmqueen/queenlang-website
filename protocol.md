@@ -6,7 +6,8 @@ nav_order: 2
 
 # Queen's Protocol
 
-In the effort of implementing real object-oriented applications, the Queen programming language comes with a strict set of rules.
+In the effort of implementing better object-oriented applications, the Queen programming language comes with a strict set of rules.
+These rules should not be thought of as limiting the developer. Rather, they should be thought of as a guide which should lead to much better object-orientation.
 
 1. Any public instance methods should be declared in an interface.
 2. A class is either abstract or final, no in-between.
