@@ -16,7 +16,7 @@ Read more in Queen's [protocol](/protocol.html).
 
 ## Download
 
-The CLI Transpiler can be downloaded from our Github Packages page. More [here](https://github.com/jvmqueen/queen-of-java).
+The CLI Transpiler can be downloaded from our Github Packages page. More [here](https://github.com/jvmqueen/queen-of-java/tree/master#how-to-use-it).
 
 ### Hello World
 
