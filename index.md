@@ -53,6 +53,32 @@ $ Queen says Hello World!
 
 The first command transpiles the Queen project (in this case, only the file EntryPoint.queen) from the current directory into the same directory, while the second command simply executes the created Java class which is created in a directory structure respecting the declared package (org.queenlang.helloworld).
 
+### Generate Maven Project Scaffold
+
+``queenc`` can generate a Queen-compliant Maven structure which you can use as starting point for your Queen project. By default,
+it will just say "Hello World", by using Java, as well as Queen - the two are interoperable, there is a Java class implementing a Queen interface.
+
+In order for this to work, you have to set the ``$QUEEN_PATH`` environment variable, pointing to your ``queenc.jar`` file.
+You can also define the queenc alias: ``alias queenc='java -jar $QUEEN_PATH'``, so your command becomes easier to read:
+
+```bash
+$ queenc -cm /playground/my-queen-project \
+  && cd ~/playground/my-queen-project \
+  && mvn clean install \
+  && java -jar ./target/my-queen-project.jar
+$  
+$ ... logging from queenc and maven ...
+$
+$ [INFO] ------------------------------------------------------------------------
+$ [INFO] BUILD SUCCESS
+$ [INFO] ------------------------------------------------------------------------
+$
+$ ...
+$
+$ Queen says Hello World!
+$ In the name of Queen, Java also says Hello World!
+```
+
 ### Development of Queenlang
 
 The Queen programming language is developed and maintained on Github, under the [jvmqueen](https://github.com/jvmqueen) Organization, by [Silvia Maxima et Co.](https://silviamaxima.eu). Feel free to contribute or open any Issues you might have. We will help you with any question or problem.
